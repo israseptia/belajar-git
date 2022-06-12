@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(155, 189, 241);
+    color: black;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between ;
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    margin: 15px;
+    color: rgb(64, 148, 148);
+    font-size: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 15px;
+}
+
+nav ul li{
+    margin-left: 12px;
+    padding: 17px 17px;
+    display: inline-block;
+    color: rgb(26, 128, 196);
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid grey;
+    transition: all .4s ease;
+}
+
+#SelamatDatang{
+    text-align: center;
+    padding: 35px;
+    background-color:  rgb(155, 189, 241);
+    color: black;
+}
+
+#SelamatDatang h1{
+    display: flex;
+    padding: 10px;
+    letter-spacing: 6px;
+    margin: 30px;
+    flex-direction: column;
+    font-family: fredoka one;
+    font-size: 30px;
+}
+
+#SelamatDatang p{
+    margin: 0 170px;
+    padding: 6px;
+    text-align: justify;
+}
+
+#wisata {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: black;
+    color: white;
+}
+
+#wisata h1{
+    text-align: center;
+}
+
+.foto{
+    padding: 20px;
+    display: flex;
+    width: 900px;
+    min-height: 300px;
+    justify-content: space-between;
+    margin: auto auto;
+}
+
+.pulaugili h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.pulaugili{
+    text-align: justify;
+    padding: 20px;
+}
+
+.pulaunoko h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.pulaunoko{
+    text-align: justify;
+    padding: 20px;
+}
+
+.pantairia h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 2px; 
+}
+
+.pantairia{
+    text-align: justify;
+    padding: 20px;
+}
+
+#contactus{
+    text-align: center;
+    padding: 55px;
+}
+
+.isicontact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto auto;
+    color: black;
+    text-align: center;
+}
+
+.email{
+    padding: 22px;
+}
+
+.telephone{
+    padding: 22px;
+}
+
+footer{
+
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+footer span {
+    color: red;
+}
